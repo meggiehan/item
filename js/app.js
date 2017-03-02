@@ -1,6 +1,9 @@
-(function (window) {
+(function (angular) {
 	'use strict';
+//1首先创建模块,显示数据列表
+    var myApp=angular.module('todos',['todos.controller','todos.service']);
 
-	// Your starting point. Enjoy the ride!
 
-})(window);
+
+
+})(angular);
